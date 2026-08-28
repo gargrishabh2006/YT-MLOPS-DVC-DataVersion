@@ -10,3 +10,4 @@
     because internally  we were tracking data/ folder from git so now we remove it for DVC to handle
 
 8. again we do "dvc add data/" (create data.dvc) thenn "git add .gitignore data.dvc"
+9. Now "dvc commit" and then "dvc push"

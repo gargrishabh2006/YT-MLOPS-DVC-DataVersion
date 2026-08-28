@@ -11,3 +11,4 @@
 
 8. again we do "dvc add data/" (create data.dvc) thenn "git add .gitignore data.dvc"
 9. Now "dvc commit" and then "dvc push"
+10. Now make changes to mycode.py to append a new row in data , check changes via "dvc status"

@@ -17,6 +17,15 @@ new_row_loc={
 }
 df.loc[len(df.index)]=new_row_loc
 
+#addinf new row to df for v3
+new_row_loc={
+    "name":"GF2",
+    "age":50,
+    "city":"hongkong"
+}
+df.loc[len(df.index)]=new_row_loc
+
+
 data_dir="data" #by name data a folder will be created
 os.makedirs(data_dir,exist_ok=True)#exist_ok=True => if a folder name data already their then it will create it again
 
